@@ -1,19 +1,39 @@
-# @bsonntag/react-lib-boilerplate
+# react-device-orientation
 
-> A boilerplate for react modules.
+> A react wrapper for device orientation events.
 
 ## Installation
 
 Using npm:
 
 ```sh
-$ npm install --save @bsonntag/react-lib-boilerplate
+$ npm install --save react-device-orientation
 ```
 
 Using yarn:
 
 ```sh
-$ yarn add @bsonntag/react-lib-boilerplate
+$ yarn add react-device-orientation
+```
+
+## Example
+
+```js
+import DeviceOrientation from 'react-device-orientation';
+import React from 'react';
+
+const App = () => (
+  <DeviceOrientation>
+    {({ absolute, alpha, beta, gamma }) => (
+      <div>
+        {`Absolute: ${absolute}`}
+        {`Alpha: ${alpha}`}
+        {`Beta: ${beta}`}
+        {`Gamma: ${gamma}`}
+      </div>
+    )}
+  </DeviceOrientation>
+);
 ```
 
 ## Contributing
