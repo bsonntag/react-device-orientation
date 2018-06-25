@@ -1,0 +1,37 @@
+{
+  "name": "react-device-orientation",
+  "version": "0.0.0",
+  "description": "A react wrapper for device orientation events.",
+  "keywords": [
+    "device",
+    "orientation",
+    "react"
+  ],
+  "repository": "git@github.com:bsonntag/react-device-orientation.git",
+  "license": "MIT",
+  "author": "Benjamim Sonntag <benjamimsonntag@seegno.com>",
+  "main": "dist/index.js",
+  "scripts": {
+    "bundle": "rm -rf dist && babel src --out-dir dist",
+    "bundle:watch": "babel src --out-dir dist --watch",
+    "version": "npm run bundle && git add dist"
+  },
+  "dependencies": {
+    "prop-types": "^15.6.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^4.19.1",
+    "eslint-config-seegno": "^10.0.0",
+    "eslint-plugin-react": "^7.9.1",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  },
+  "peerDependencies": {
+    "react": "^16.3.0"
+  }
+}
