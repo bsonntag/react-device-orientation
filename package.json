@@ -17,7 +17,7 @@
     "version": "npm run bundle && git add dist"
   },
   "dependencies": {
-    "prop-types": "^15.6.2"
+    "prop-types": "^15.7.2"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
@@ -25,11 +25,10 @@
     "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
-    "eslint": "^4.19.1",
-    "eslint-config-seegno": "^10.0.0",
-    "eslint-plugin-react": "^7.9.1",
-    "react": "^16.4.1",
-    "react-dom": "^16.4.1"
+    "eslint": "^5.16.0",
+    "eslint-config-seegno": "^13.0.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
   },
   "peerDependencies": {
     "react": "^16.3.0"
