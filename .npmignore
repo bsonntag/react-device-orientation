@@ -1,4 +1,4 @@
-.babelrc
-.eslintrc.js
+.babel*
+.eslint*
 coverage
 src
