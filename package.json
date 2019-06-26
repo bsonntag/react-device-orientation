@@ -26,8 +26,11 @@
     "@babel/plugin-proposal-class-properties": "^7.4.4",
     "@babel/preset-env": "^7.4.5",
     "@babel/preset-react": "^7.0.0",
-    "eslint": "^5.16.0",
-    "eslint-config-seegno": "^13.0.0",
+    "@bsonntag/eslint-config": "^0.3.0",
+    "eslint": "^6.0.1",
+    "husky": "^2.4.1",
+    "lint-staged": "^8.2.1",
+    "prettier": "^1.18.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   },

@@ -2,7 +2,6 @@ import { Component } from 'react';
 import PropTypes from 'prop-types';
 
 export default class DeviceOrientation extends Component {
-
   static propTypes = {
     children: PropTypes.func,
   };
@@ -29,11 +28,14 @@ export default class DeviceOrientation extends Component {
   }
 
   componentWillUnmount() {
-    window.removeEventListener('deviceorientation', this.handleOrientation, true);
+    window.removeEventListener(
+      'deviceorientation',
+      this.handleOrientation,
+      true
+    );
   }
 
   render() {
     return this.props.children(this.state);
   }
-
 }
